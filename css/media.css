@@ -1,4 +1,74 @@
 
+@media only screen and (max-width: 3440px){
+    .buttNext{
+        left: 3200px;
+    }
+
+    .buttPrev{
+        right: 3200px;
+    }
+}
+
+@media only screen and (max-width: 2560px){
+    .buttNext{
+        left: 2300px;
+    }
+
+    .buttPrev{
+        right: 2300px;
+    }
+}
+
+@media only screen and (max-width: 1920px){
+    .buttNext{
+        left: 1750px;
+    }
+
+    .buttPrev{
+        right: 1750px;
+    }
+}
+
+@media only screen and (max-width: 1680px){
+    .buttNext{
+        left: 1475px;
+    }
+
+    .buttPrev{
+        right: 1475px;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .buttNext{
+        left: 1450px;
+    }
+
+    .buttPrev{
+        right: 1450px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .buttNext{
+        left: 1275px;
+    }
+
+    .buttPrev{
+        right: 1275px;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    .buttNext{
+        left: 1225px;
+    }
+
+    .buttPrev{
+        right: 1225px;
+    }
+}
+
 @media only screen and (max-width: 1280px){
 
     .buttNext{
@@ -87,7 +157,7 @@
         #foto img{
             margin: 15px;
             width: 90%;
-            z-index: -1пш;
+            z-index: -1;
         }
 
         header{

@@ -2,75 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="337bb535-c17c-4ed2-8225-7d58ef863734" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/oselja.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/flex.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/media.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/normalize.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/styleMenu.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadPro.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProBold/MyriadProBold.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProBold/MyriadProBold.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProBold/MyriadProBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProBold/MyriadProBold.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProBoldItalic/MyriadProBoldItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProItalic/MyriadProItalic.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProItalic/MyriadProItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProItalic/MyriadProItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProItalic/MyriadProItalic.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProRegular/MyriadProRegular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProRegular/MyriadProRegular.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProRegular/MyriadProRegular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProRegular/MyriadProRegular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProSemiBold/MyriadProSemiBold.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProSemiBold/MyriadProSemiBold.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProSemiBold/MyriadProSemiBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProSemiBold/MyriadProSemiBold.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/facebook-min.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/fon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/google-min.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/intsagram-min.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/kush.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/patern.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/corob.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/falsh.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/figyra.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/gipsokartonnye.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/peregoridki.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/strelkaLeft.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/strelkaRight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/г2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/г3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/sliderPic/г5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/twitter-min.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/youtube-min.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/scriptMenu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/ajax-loader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/config.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/fonts/slick.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/fonts/slick.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/fonts/slick.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/fonts/slick.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/slick-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/slick-theme.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/slick-theme.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/slick.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/slick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/slick.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/slick.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/slick/slick.scss" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,8 +23,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+                <state relative-caret-position="115">
+                  <caret line="87" column="42" lean-forward="true" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -103,7 +37,7 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4471">
+                <state relative-caret-position="1016">
                   <caret line="263" column="13" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="13" />
                   <folding />
                 </state>
@@ -113,8 +47,8 @@
           <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/media.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -162,8 +96,8 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/flex.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styleMenu.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/media.css" />
       </list>
     </option>
@@ -174,7 +108,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="4" />
     <option name="width" value="1370" />
     <option name="height" value="744" />
@@ -282,15 +216,16 @@
       <workItem from="1528008769017" duration="8095000" />
       <workItem from="1528032938806" duration="2994000" />
       <workItem from="1528054735115" duration="780000" />
-      <workItem from="1528127522478" duration="591000" />
+      <workItem from="1528127522478" duration="781000" />
+      <workItem from="1528306244464" duration="2522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71941000" />
+    <option name="totallyTimeSpent" value="74653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14657739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -656,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/styleMenu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -672,9 +599,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="87" column="42" lean-forward="true" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4471">
+        <state relative-caret-position="1016">
           <caret line="263" column="13" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="13" />
           <folding />
         </state>
@@ -682,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
       </provider>
