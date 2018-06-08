@@ -29,6 +29,16 @@
     }
 }
 
+@media only screen and (max-width: 1800px){
+    .buttNext{
+        left: 1615px;
+    }
+
+    .buttPrev{
+        right: 1615px;
+    }
+}
+
 @media only screen and (max-width: 1680px){
     .buttNext{
         left: 1475px;
@@ -88,6 +98,14 @@
     .buttPrev{
         right: 1075px;
     }
+
+    .nav_list{
+        margin: 20px 125px 0 125px;
+    }
+
+    #social img:first-child{
+        margin-left: 40px;
+    }
 }
 
 @media only screen and (max-width: 1100px){
@@ -97,6 +115,10 @@
 
     .buttPrev{
         right: 1000px;
+    }
+
+    .nav_list{
+        margin: 20px 100px 0 100px;
     }
 }
 
@@ -115,6 +137,17 @@
 }
 
 @media only screen and (max-width:992px) {
+    body{
+        font-size: 24px;
+    }
+
+    #lang a{
+        font-size: 24px;
+    }
+
+    #call-us p{
+        font-size: 24px;
+    }
 	.menu{
 	  display: flex;
         justify-content: flex-end;
@@ -128,17 +161,17 @@
 	        display: flex;
 			margin: 2% 0;
 			z-index: 9999;
-            background: red;
+            background-image: url(../img/patern.png);
+            background-color: rgb(247,240,225);
+            text-decoration: underline;
 		}
     .nav_list{
         margin: 2px auto;
         display: flex;
         width: 70%;
         flex-direction: column;
-        
-        
+        font-size: 24px;
     }
-    
 		.nav--open .nav_item{
             margin: 1px;
             padding: 10px 30px;
@@ -161,11 +194,57 @@
         }
 
         header{
-            margin-left: 75px;
+            margin-left: 35px;
+            margin-top: 25px;
+            height: auto;
         }
 
     #foo-menu>ul{
-        margin-left: 75px;
+        display: none;
+    }
+
+    #social{
+        margin-right: 35px;
+    }
+
+    #social a{
+        margin: 25px 0 0 110px;
+        font-size: 24px;
+    }
+
+
+
+    #social img{
+        width: 75px;
+        padding: 5px;
+        border: solid black 2px;
+        margin-left: 95px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    #social img:nth-child(1){
+        display: none;
+    }
+
+    #social img:nth-child(2){
+        display: none;
+    }
+
+    #social img:nth-child(3){
+        display: none;
+    }
+
+    #mobile_social{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #social img:first-child{
+        margin-left: 0;
+    }
+
+    #foo-call-us img{
+        display: none;
     }
 }
-
