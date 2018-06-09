@@ -185,11 +185,12 @@
         #foto{
             display: flex;
             flex-direction: column;
+            width: 100%;
+            height: auto;
         }
 
         #foto img{
             margin: 15px;
-            width: 90%;
             z-index: -1;
         }
 

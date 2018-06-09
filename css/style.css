@@ -1,5 +1,7 @@
 body{
     background-image: url("../img/fon.png");
+    /*display: flex;*/
+    /*flex-direction: column;*/
 }
 
 /*****Шрифт*******/
