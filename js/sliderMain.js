@@ -1,4 +1,4 @@
-$('.slider').slick({
+$('#slider-1').slick({
     dots: true,
     prevArrow: '<div class="buttPrev"><img src="img/sliderPic/strelkaLeft.png"></div>',
     nextArrow: '<div class="buttNext"><img src="img/sliderPic/strelkaRight.png"></div>',
