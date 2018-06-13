@@ -14,11 +14,7 @@
     margin: 5px;
 }
 
-.flex-box div img:hover{
-    outline: chocolate solid 10px;
-    outline-offset: -10px;
-    cursor: pointer;
-}
+
 
 
 .flex-box div img{
@@ -48,6 +44,12 @@
     color: black;
     font-size: 24px;
     font-family: "MyriadProSemiBold";
+}
+
+.description:hover{
+    height: 175px;
+    transition: 500ms;
+    cursor: pointer;
 }
 
 .description-box{
@@ -85,23 +87,24 @@
     flex-direction: column;
     width: 925px;
     margin-left: 215px;
+    overflow: hidden;
 }
 
 .bold{
     font-weight: bold;
 }
 
-#slider-2, #slider-3, #slider-4, #slider-5, #slider-6, #slider-7, #slider-8{
+#slider-2, #slider-3, #slider-4, #slider-5, #slider-6, #slider-7, #slider-8, #slider-9, #slider-10, #slider-11{
     width: 100%;
 }
 
-#slider-2 div, #slider-3 div, #slider-4 div, #slider-5 div, #slider-6 div, #slider-7 div, #slider-8 div{
+#slider-2 div, #slider-3 div, #slider-4 div, #slider-5 div, #slider-6 div, #slider-7 div, #slider-8 div, #slider-9 div, #slider-10 div, #slider-11 div{
     width: 100%;
     height: 180px;
     margin-left: 10px;
 }
 
-#slider-2 div img, #slider-3 div img, #slider-4 div img, #slider-5 div img, #slider-6 div img, #slider-7 div img, #slider-8 div img{
+#slider-2 div img, #slider-3 div img, #slider-4 div img, #slider-5 div img, #slider-6 div img, #slider-7 div img, #slider-8 div img, #slider-9 div img, #slider-10 div img, #slider-11 div img{
     width: 100%;
 }
 
