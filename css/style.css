@@ -185,6 +185,11 @@ nav li a:hover{
     transition: 500ms;
 }
 
+nav.main-nav .stickytop {
+    position:fixed;
+    top:0
+}
+
 /******Конец nav*********/
 
 /******Оформление article**********/
