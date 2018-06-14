@@ -14,14 +14,10 @@
     margin: 5px;
 }
 
-
-
-
 .flex-box div img{
     width: 300px;
     max-width: 100%;
     max-height: 200px;
-
 }
 
 #box{
@@ -124,6 +120,10 @@
     font-family: "MyriadProRegular";
     opacity: 1.0;
     transition: 750ms;
+}
+
+#mobile_services{
+    display: none;
 }
 
 /*************Конец главных картинок********************/

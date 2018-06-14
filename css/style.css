@@ -184,10 +184,19 @@ nav li a:hover{
     color: goldenrod;
     transition: 500ms;
 }
-
-nav.main-nav .stickytop {
+.stickytop {
     position:fixed;
+    z-index: 99999;
+    width: 100%;
+    background-image: url(../img/patern.png);
+    background-color: rgb(247,240,225);
+    background-size: 100%;
+    height: 70px;
     top:0
+}
+
+.stickytop .nav_item{
+    margin-top: -5px;
 }
 
 /******Конец nav*********/
@@ -254,6 +263,22 @@ nav.main-nav .stickytop {
 
 #foto{
     display: none;
+}
+
+#toTop {
+    width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:verdana;
+    font-size:11px;
 }
 
 /*******Конец article*************/
