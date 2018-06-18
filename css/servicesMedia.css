@@ -4,31 +4,82 @@
 
 @media only screen and (max-width: 992px){
 
-    .flex-box {
-        display: none;
+    .flex-box{
+        margin-left: 75px;
+        margin-top: 35px;
+        width: 95%;
     }
 
-    #mobile_services{
-        display: flex;
-        flex-direction: row;
-        width: 75%;
-        margin-left: 200px;
+    .flex-box div img{
+        width: 450px;
     }
 
-    #mobile_services .description{
-        margin: 15px;
-        position: static;
-        background: #333333;
-        color: white;
+    #box{
+        flex-basis: 450px;
     }
 
-    #mobile_services .description:hover{
-        transition: none;
-        height: auto;
+    #falsehood{
+        flex-basis: 910px;
+    }
+
+    #falsehood img{
+        width: 100%;
+    }
+
+    .description{
+        top: 345px;
+        width: 440px;
+        height: 140px;
+    }
+
+    #figures .description{
+        top: 555px;
+        width: 440px;
+        height: 140px;
+    }
+
+    .description-falsehood{
+        top: 770px;
+        width: 895px;
+        height: 140px;
+    }
+
+    .description-box{
+        top: 555px;
+        width: 440px;
+        height: 140px;
+    }
+
+    .title{
+        opacity: 1;
     }
 
     #content-1, #content-2, #content-3, #content-4, #content-5{
         overflow: hidden;
+        margin-left: 75px;
+    }
+
+    #slider-2, #slider-3, #slider-4, #slider-5, #slider-6, #slider-7,
+    #slider-8, #slider-9, #slider-10, #slider-11, #slider-12, #slider-13,
+    #slider-14, #slider-15, #slider-16, #slider-17{
+        display: none;
+    }
+
+    .mobile_img{
+        display: flex;
+    }
+
+    .mobile_img img{
+        width: 300px;
+        margin-left: 5px;
+        max-height: 170px;
+    }
+
+    .nav_list{
+        width: 100%;
+        z-index: 2;
+        background-image: url(../img/patern.png);
+        background-color: rgb(247,240,225);
     }
 
 }

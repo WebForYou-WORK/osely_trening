@@ -9,9 +9,9 @@
     display: flex;
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox; 
+    display: -ms-flexbox;
     justify-content: space-around;
-    
+
 }*/
 .nav_list{
     display: flex;
@@ -20,6 +20,5 @@
     }
 .nav_item{
     flex: 1;
-    /*border: solid 1px black;*/
-    /*margin-left: 5px;*/
+
 }
