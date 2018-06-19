@@ -1,0 +1,60 @@
+article{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6cm;
+    margin-right: 0;
+    width: 700px;
+
+}
+
+.post{
+    display: flex;
+    font-family: "MyriadProSemiBold";
+}
+
+h2{
+    color: goldenrod;
+}
+
+.text{
+    margin-left: 60px;
+}
+
+aside{
+    width: 220px;
+    background-image: url(../img/patern.png);
+    background-color: rgb(247,240,225);
+    font-family: "MyriadProSemiBold";
+}
+
+aside h2{
+    color: black;
+}
+
+aside p{
+    color: goldenrod;
+}
+
+.flex-box{
+    display: flex;
+}
+
+.read_more{
+    cursor: pointer;
+    color: goldenrod;
+}
+
+#category{
+    margin-left: 60px;
+}
+
+#category p a{
+    text-decoration: none;
+    color: black;
+}
+
+#category p a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    transition: 500ms;
+}

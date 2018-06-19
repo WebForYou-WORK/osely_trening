@@ -182,6 +182,7 @@ nav li a{
 
 nav li a:hover{
     color: goldenrod;
+    text-decoration: underline;
     transition: 500ms;
 }
 .stickytop {
