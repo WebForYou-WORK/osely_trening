@@ -74,14 +74,6 @@ aside p{
         width: 95%;
     }
 
-    .nav_list{
-        width: 100%;
-        z-index: 2;
-        background-image: url(../img/patern.png);
-        background-color: rgb(247,240,225);
-        font-size: 32px;
-    }
-
     aside{
         display: none;
     }
