@@ -7,9 +7,10 @@
     <link href="css/styleMenu.css" rel="stylesheet" type="text/css"/>
     <link href="css/media.css" rel="stylesheet" type="text/css"/>
     <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="css/flex.css">
-    <link rel="stylesheet" href="css/ui.totop.css">
-    <link rel="stylesheet" href="css/materialsStyle.css">
+    <link rel="stylesheet" href="css/flex.css" type="text/css">
+    <link rel="stylesheet" href="css/ui.totop.css" type="text/css">
+    <link rel="stylesheet" href="css/materialsStyle.css" type="text/css">
+    <link rel="stylesheet" href="css/jqcart.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css"/>
 </head>
 <body>
@@ -63,53 +64,70 @@
 </nav>
 
 <article>
+    <div id="wrapper">
+        <div class="label-place"></div>
 
-    <div><a data-fancybox="gallery" href="img/materials_img/CMYK-Fogra-39-min.jpg"><img src="img/materials_img/CMYK-Fogra-39-min.jpg"></a>
-        <div class="plus"><p class="subject">Гипсокартон водостойкий</p>
-            <img src="img/plus.png" title="Добавить в корзину"> <span class="price">800 грн</span></div>
+        <br>
+        <div class="item_box">
+        <img src="img/materials_img/CMYK-Fogra-39-min.jpg" alt="">
+        <h3 class="item_title">Гипсокартон водостойкий</h3>
+        <p>Цена: <span class="item_price">20</span>$</p>
+        <button class="add_item" data-id="1" data-title="Гипсокартон водостойкий" data-price="20" data-img="img/materials_img/CMYK-Fogra-39-min.jpg" data-count="100500">Добавить в корзину</button>
+    </div>
+        <div class="item_box">
+            <img src="img/materials_img/CMYK-Fogra-39-min.jpg" alt="">
+            <h3 class="item_title">Гипсокартон водостойкий</h3>
+            <p>Цена: <span class="item_price">0.6</span>$</p>
+            <button class="add_item" data-id="2" data-title="Гипсокартон водостойкий" data-price="0.6" data-img="img/materials_img/CMYK-Fogra-39-min.jpg">Добавить в корзину</button>
+        </div>
+        <div class="item_box">
+            <img src="img/materials_img/CMYK-Fogra-39-min.jpg" alt="">
+            <h3 class="item_title">Гипсокартон водостойкий</h3>
+            <p>Цена: <span class="item_price">1000</span>$</p>
+            <button class="add_item" data-id="3" data-title="Гипсокартон водостойкий" data-price="1000" data-img="img/materials_img/CMYK-Fogra-39-min.jpg">Добавить в корзину</button>
+        </div>
+
+        <div class="item_box">
+            <img src="img/materials_img/CMYK-Fogra-39-min.jpg" alt="">
+            <h3 class="item_title">Гипсокартон водостойкий</h3>
+            <p>Цена: <span class="item_price">20</span>$</p>
+            <button class="add_item" data-id="4" data-title="Гипсокартон водостойкий" data-price="20" data-img="img/materials_img/CMYK-Fogra-39-min.jpg" data-count="100500">Добавить в корзину</button>
+        </div>
+        <div class="item_box">
+            <img src="img/materials_img/CMYK-Fogra-39-min.jpg" alt="">
+            <h3 class="item_title">Гипсокартон водостойкий</h3>
+            <p>Цена: <span class="item_price">0.6</span>$</p>
+            <button class="add_item" data-id="5" data-title="Гипсокартон водостойкий" data-price="0.6" data-img="img/materials_img/CMYK-Fogra-39-min.jpg">Добавить в корзину</button>
+        </div>
+        <div class="item_box">
+            <img src="img/materials_img/CMYK-Fogra-39-min.jpg" alt="">
+            <h3 class="item_title">Гипсокартон водостойкий</h3>
+            <p>Цена: <span class="item_price">1000</span>$</p>
+            <button class="add_item" data-id="6" data-title="Гипсокартон водостойкий" data-price="1000" data-img="img/materials_img/CMYK-Fogra-39-min.jpg">Добавить в корзину</button>
+        </div>
+
+        <div class="item_box">
+            <img src="img/materials_img/CMYK-Fogra-39-min.jpg" alt="">
+            <h3 class="item_title">Гипсокартон водостойкий</h3>
+            <p>Цена: <span class="item_price">20</span>$</p>
+            <button class="add_item" data-id="7" data-title="Гипсокартон водостойкий" data-price="20" data-img="img/materials_img/CMYK-Fogra-39-min.jpg" data-count="100500">Добавить в корзину</button>
+        </div>
+        <div class="item_box">
+            <img src="img/materials_img/CMYK-Fogra-39-min.jpg" alt="">
+            <h3 class="item_title">Гипсокартон водостойкий</h3>
+            <p>Цена: <span class="item_price">0.6</span>$</p>
+            <button class="add_item" data-id="8" data-title="Гипсокартон водостойкий" data-price="0.6" data-img="img/materials_img/CMYK-Fogra-39-min.jpg">Добавить в корзину</button>
+        </div>
+        <div class="item_box">
+            <img src="img/materials_img/CMYK-Fogra-39-min.jpg" alt="">
+            <h3 class="item_title">Гипсокартон водостойкий</h3>
+            <p>Цена: <span class="item_price">1000</span>$</p>
+            <button class="add_item" data-id="9" data-title="Гипсокартон водостойкий" data-price="1000" data-img="img/materials_img/CMYK-Fogra-39-min.jpg">Добавить в корзину</button>
+        </div>
+        <div class="label-place"></div>
+
     </div>
 
-    <div><a data-fancybox="gallery" href="img/materials_img/CMYK-Fogra-39-min.jpg"><img src="img/materials_img/CMYK-Fogra-39-min.jpg"></a>
-        <div class="plus"><p class="subject">Гипсокартон водостойкий</p>
-            <img src="img/plus.png" title="Добавить в корзину"> <span class="price">800 грн</span></div>
-    </div>
-
-    <div><a data-fancybox="gallery" href="img/materials_img/CMYK-Fogra-39-min.jpg"><img src="img/materials_img/CMYK-Fogra-39-min.jpg"></a>
-        <div class="plus"><p class="subject">Гипсокартон водостойкий</p>
-            <img src="img/plus.png" title="Добавить в корзину"> <span class="price">800 грн</span></div>
-    </div>
-
-    <div><a data-fancybox="gallery" href="img/materials_img/CMYK-Fogra-39-min.jpg"><img src="img/materials_img/CMYK-Fogra-39-min.jpg"></a>
-        <div class="plus"><p class="subject">Гипсокартон водостойкий</p>
-            <img src="img/plus.png" title="Добавить в корзину"> <span class="price">800 грн</span></div>
-    </div>
-
-    <div><a data-fancybox="gallery" href="img/materials_img/CMYK-Fogra-39-min.jpg"><img src="img/materials_img/CMYK-Fogra-39-min.jpg"></a>
-        <div class="plus"><p class="subject">Гипсокартон водостойкий</p>
-            <img src="img/plus.png" title="Добавить в корзину"> <span class="price">800 грн</span></div>
-    </div>
-
-    <div><a data-fancybox="gallery" href="img/materials_img/CMYK-Fogra-39-min.jpg"><img src="img/materials_img/CMYK-Fogra-39-min.jpg"></a>
-        <div class="plus"><p class="subject">Гипсокартон водостойкий</p>
-            <img src="img/plus.png" title="Добавить в корзину"> <span class="price">800 грн</span></div>
-    </div>
-
-    <div><a data-fancybox="gallery" href="img/materials_img/CMYK-Fogra-39-min.jpg"><img src="img/materials_img/CMYK-Fogra-39-min.jpg"></a>
-        <div class="plus"><p class="subject">Гипсокартон водостойкий</p>
-            <img src="img/plus.png" title="Добавить в корзину"> <span class="price">800 грн</span></div>
-    </div>
-
-    <div><a data-fancybox="gallery" href="img/materials_img/CMYK-Fogra-39-min.jpg"><img src="img/materials_img/CMYK-Fogra-39-min.jpg"></a>
-        <div class="plus"><p class="subject">Гипсокартон водостойкий</p>
-            <img src="img/plus.png" title="Добавить в корзину"> <span class="price">800 грн</span></div>
-    </div>
-
-    <div><a data-fancybox="gallery" href="img/materials_img/CMYK-Fogra-39-min.jpg"><img src="img/materials_img/CMYK-Fogra-39-min.jpg"></a>
-        <div class="plus"><p class="subject">Гипсокартон водостойкий</p>
-            <img src="img/plus.png" title="Добавить в корзину"> <span class="price">800 грн</span></div>
-    </div>
-
-    <a href="basket.html" class="button"/>Корзина</a>
 
 </article>
 
@@ -155,6 +173,28 @@
 <script src="js/jquery.ui.totop.js" type="text/javascript"></script>
 <script src="js/easing.js" type="text/javascript"></script>
 <script src="js/totop.js" type="text/javascript"></script>
+<script src="js/jqcart.min.js" type="text/javascript"></script>
+<script>
+    $(function(){
+        'use strict';
+        // инициализация плагина
+        $.jqCart({
+            buttons: '.add_item',
+            handler: './php/handler.php',
+            cartLabel: '.label-place',
+            visibleLabel: true,
+            openByAdding: false,
+            currency: '&euro;'
+        });
+        // Пример с дополнительными методами
+        $('#open').click(function(){
+            $.jqCart('openCart'); // открыть корзину
+        });
+        $('#clear').click(function(){
+            $.jqCart('clearCart'); // очистить корзину
+        });
+    });
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 
 
