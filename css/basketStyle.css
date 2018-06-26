@@ -1,0 +1,166 @@
+body{
+    background-image: url("../img/fon.png");
+    font-family: "MyriadProBold";
+}
+
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../css/fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../css/fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../css/fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../css/fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1{
+    margin-left: 125px;
+}
+
+#contact{
+    display: flex;
+    flex-flow: column;
+}
+
+#contact input{
+    margin: 25px 125px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid goldenrod;
+    font-size: 20px;
+}
+
+#payment{
+    display: flex;
+    flex-direction: row;
+    margin-left: 125px;
+}
+
+#payment div{
+    display: flex;
+    flex-direction: column;
+}
+
+#payment div:nth-child(2){
+    margin-left: 50px;
+}
+
+#payment input{
+    width: 40px;
+}
+
+/*************Красивый Radio****************/
+
+
+@keyframes click-wave {
+    0% {
+        height: 40px;
+        width: 40px;
+        opacity: 0.35;
+        position: relative;
+    }
+    100% {
+        height: 200px;
+        width: 200px;
+        margin-left: -80px;
+        margin-top: -80px;
+        opacity: 0;
+    }
+}
+
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    top: 13.33333px;
+    height: 40px;
+    width: 40px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+}
+.option-input:hover {
+    background: #9faab7;
+}
+.option-input:checked {
+    background: goldenrod;
+}
+.option-input:checked::before {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    content: '✔';
+    display: inline-block;
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 40px;
+}
+.option-input:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #40e0d0;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+.option-input.radio {
+    border-radius: 50%;
+}
+.option-input.radio::after {
+    border-radius: 50%;
+}
+
+/************Конец Radio*******************/
+
+#address{
+    width: 100%;
+    margin: 45px 125px;
+    border: 2px solid goldenrod;
+    font-size: 16px;
+}
+
+#coments{
+    margin: 5px 125px;
+    width: 100%;
+    border: 2px solid goldenrod;
+    font-size: 16px;
+}
+
+#addres_coment{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+a{
+    border: 2px solid goldenrod;
+    margin-top: 55px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#butt{
+    margin: 55px 0 80px 125px;
+}
+
+#butt a:nth-child(2){
+    margin-left: 225px;
+}
+
+a:hover{
+    background: goldenrod;
+}
