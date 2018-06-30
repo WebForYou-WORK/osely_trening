@@ -1,22 +1,104 @@
 
 /********@media for index**************/
-@media only screen and (max-width: 3440px){
+@media only screen and (max-width: 3440px) and (min-width: 2561px){
     .buttNext{
         left: 3200px;
+        height: 100%;
+        width: 215px;
+    }
+
+    .buttNext>img{
+        margin-top: 1000px;
     }
 
     .buttPrev{
         right: 3200px;
+        height: 100%;
+        width: 215px;
+    }
+
+    .buttPrev>img{
+        margin-top: 1000px;
+    }
+
+    #slider-1{
+        height: 55%;
+    }
+
+    #take-call{
+        left: 2500px;
+        width: 500px;
+        height: 600px;
+    }
+
+    #phone{
+        margin-top: 115px;
+        width: 300px;
+        margin-left: 125px;
+    }
+
+    #name{
+        margin-top: 30px;
+        width: 300px;
+        margin-left: 125px;
+
+    }
+
+    .button {
+        margin-top: 35px;
+        margin-left: 145px;
+        width: 200px;
     }
 }
 
-@media only screen and (max-width: 2560px){
+@media only screen and (max-width: 2560px) and (min-width: 1921px){
     .buttNext{
         left: 2300px;
+        height: 100%;
+        width: 200px;
+    }
+
+    .buttNext>img{
+        margin-top: 700px;
     }
 
     .buttPrev{
         right: 2300px;
+        height: 100%;
+        width: 200px;
+    }
+
+    .buttPrev>img{
+        margin-top: 700px;
+    }
+
+    #slider-1{
+        height: 1500px;
+    }
+
+    #take-call{
+        left: 1700px;
+        width: 500px;
+        height: 600px;
+    }
+
+    #phone{
+        margin-top: 115px;
+        width: 300px;
+        margin-left: 105px;
+    }
+
+    #name{
+        margin-top: 30px;
+        width: 300px;
+        margin-left: 105px;
+
+    }
+
+    .button {
+        margin-top: 35px;
+        margin-left: 125px;
+        width: 200px;
     }
 }
 
@@ -226,8 +308,6 @@
         margin: 25px 0 0 110px;
         font-size: 24px;
     }
-
-
 
     #social img{
         width: 75px;

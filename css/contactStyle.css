@@ -1,7 +1,12 @@
+html, body{
+    /*height: 100%;*/
+}
+
 article{
     display: flex;
     flex-direction: row;
     margin-left: 220px;
+    min-height: 100%;
 }
 
 #map{
@@ -12,7 +17,14 @@ article{
     border: 2px solid goldenrod;
 }
 
-@media only screen and (max-width: 992px){
+#foo{
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+@media only screen and (max-width: 992px) and (min-device-width: 426px){
     article{
         flex-direction: column;
     }
@@ -22,4 +34,21 @@ article{
         height: 300px;
         margin-left: 50px;
     }
+
+    #foo{
+        position: static;
+    }
+}
+
+@media only screen and (max-device-width: 425px){
+   article{
+       flex-direction: column;
+   }
+
+    #map{
+        width: 750px;
+        height: 800px;
+        margin: 0;
+    }
+
 }

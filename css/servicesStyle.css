@@ -169,7 +169,7 @@
 
 .slick-prev{
     margin-left: 65px;
-    z-index: 999;
+    z-index: 2;
     background: black;
     border-radius: 50%;
 }
