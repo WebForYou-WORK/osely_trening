@@ -27,7 +27,7 @@ form{
     flex-direction: column;
 }
 
-#name{
+#name-quest{
     width: 250px;
     margin-top: 15px;
     border: 2px solid goldenrod;
@@ -50,4 +50,10 @@ form{
     flex-direction: row;
     margin-top: 15px;
     width: 150px;
+}
+
+@media only screen and (max-width:992px){
+    article{
+        margin-left: 75px;
+    }
 }

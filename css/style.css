@@ -216,7 +216,7 @@ nav li a:hover{
 }
 
 .buttPrev{
-    height: 540px;
+    height: 100%;
     position: absolute;
     z-index: 9999;
     right: 1225px;
@@ -237,7 +237,7 @@ nav li a:hover{
 }
 
 .buttNext{
-    height: 540px;
+    height: 100%;
     position: absolute;
     z-index: 9999;
     top: 1px;
